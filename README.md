@@ -17,4 +17,4 @@ A starter program for writing javascript games
 
 # JavaScript All-in-One for Dummies
 
-I'm learning JavaScript, React,Vue,Svelta, and Node from the JavaScript All-in-one for Dummies by Chris Minnick
+I'm learning JavaScript, React,Vue,Svelta, and Node from the JavaScript All-in-one for Dummies by Chris Minnick.
