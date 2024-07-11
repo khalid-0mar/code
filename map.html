@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingredients List</title>
+  </head>
+  <body>
+    <ul id="Ingredients"></ul>
+    <script>
+      const Ingredients = [
+        "eggs",
+        "milk",
+        "cheese",
+        "garlic",
+        "onion",
+        "kale",
+        "salt",
+        "pepper",
+      ];
+      let listItems = Ingredients.map(
+        (singleIngredient) => `<li>${singleIngredient}</li>`
+      ).join("");
+
+      document.getElementById("Ingredients").innerHTML = listItems;
+    </script>
+  </body>
+</html>
